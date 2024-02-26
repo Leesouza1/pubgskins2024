@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: #fff;
+}
+/*cabecalho*/
+.cabecalho {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid #282828;
+}
+.cabecalho .logo {
+    display: flex;
+    gap: 30px;
+}
+.cabecalho .logo img {
+    gap: 30px;
+    height: 50px;  
+}
+.cabecalho .menu {
+    display: flex;
+    gap: 30px;
+}
+.cabecalho .menu li a {
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cabecalho .menu li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+
